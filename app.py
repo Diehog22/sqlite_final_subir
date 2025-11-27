@@ -74,7 +74,7 @@ if login_ok:
 # -------------------------------
 st.subheader("Tabla: Departamentos")
 
-df_dep = load_table("departamento")[["ID", "Nombre"]]
+df_dep = load_table("departamentos")[["ID", "Nombre"]]
 
 edited_dep = st.data_editor(
     df_dep,
